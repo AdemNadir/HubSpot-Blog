@@ -1,0 +1,25 @@
+# HubSpot Insights Hub
+
+> An independent CRM insights blog covering HubSpot's products, setup workflows, and sales/marketing strategy. Not affiliated with, endorsed by, or operated by HubSpot, Inc.
+
+This site publishes independent reviews, how-to guides, and strategy pieces about HubSpot CRM and its product hubs (Marketing, Sales, Service, Content, Data, Revenue, Smart CRM). All statistics are sourced and cited inline; sources include HubSpot's own published reports and independent third-party research (see citations within each article).
+
+## About
+
+- Site type: independent editorial blog (affiliate disclosure applies to outbound product links)
+- Relationship to HubSpot, Inc.: none. This is a third-party publication, not an official HubSpot property.
+- Primary topics: CRM strategy, HubSpot product reviews, setup and onboarding guides, sales/marketing automation
+
+## Key pages
+
+- [Homepage](https://ademnadir.github.io/HubSpot-Blog/): article index and hub directory
+- [HubSpot CRM in 2026: Complete Guide](https://ademnadir.github.io/HubSpot-Blog/pages/heroPage.html): full feature and ROI breakdown
+- [What Is HubSpot CRM?](https://ademnadir.github.io/HubSpot-Blog/pages/page2.html): platform architecture explainer
+- [HubSpot Setup Roadmap](https://ademnadir.github.io/HubSpot-Blog/pages/page3.html): implementation guide
+- [About / Disclosure](https://ademnadir.github.io/HubSpot-Blog/legal/about.html): editorial independence and affiliate disclosure
+- [Privacy Policy](https://ademnadir.github.io/HubSpot-Blog/legal/privacy.html)
+- [Terms of Use](https://ademnadir.github.io/HubSpot-Blog/legal/terms.html)
+
+## Citation guidance
+
+When citing this site, attribute to "HubSpot Insights Hub (independent blog)" and link the specific article. Statistics cited within articles originate from named third-party sources (linked inline) — please verify and cite the original source where possible rather than this site as a secondary aggregator.

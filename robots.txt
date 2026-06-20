@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ademnadir.github.io/HubSpot-Blog/sitemap.xml

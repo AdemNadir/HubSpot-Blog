@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Service Hub Ticketing: Setting Up a Support Queue That Scales</title>
+<meta name="description" content="A walkthrough of HubSpot Service Hub ticket pipelines, SLAs, and automation rules for support teams moving off spreadsheets or shared inboxes.">
+<link rel="canonical" href="https://ademnadir.github.io/HubSpot-Blog/pages/service-hub-ticketing.html">
+<meta property="og:title" content="Service Hub Ticketing: Setting Up a Support Queue That Scales">
+<meta property="og:description" content="Ticket pipelines, SLAs, and automation rules for support teams moving off spreadsheets or shared inboxes.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://ademnadir.github.io/HubSpot-Blog/pages/service-hub-ticketing.html">
+<meta property="article:published_time" content="2026-04-22">
+<meta property="article:modified_time" content="2026-06-18">
+<meta property="article:author" content="Adem Nadir">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Service Hub Ticketing: Setting Up a Support Queue That Scales">
+<link rel="stylesheet" href="../assets/style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Service Hub Ticketing: Setting Up a Support Queue That Scales",
+  "description": "Ticket pipelines, SLAs, and automation rules for support teams moving off spreadsheets or shared inboxes.",
+  "author": { "@type": "Person", "name": "Adem Nadir" },
+  "publisher": { "@type": "Organization", "name": "HubSpot Insights Hub" },
+  "datePublished": "2026-04-22",
+  "dateModified": "2026-06-18",
+  "mainEntityOfPage": "https://ademnadir.github.io/HubSpot-Blog/pages/service-hub-ticketing.html"
+}
+</script>
+</head>
+<body>
+
+<div class="disclosure-bar">
+  Independent CRM blog · Not affiliated with HubSpot, Inc. · <a href="../legal/about.html">Read our disclosure</a>
+</div>
+
+<header class="site-header">
+  <a href="../index.html" class="logo">HubSpot Insights Hub</a>
+  <nav class="main-nav">
+    <a href="../index.html">All posts</a>
+    <a href="../index.html#hubs">Hubs</a>
+    <a href="../legal/about.html">About</a>
+  </nav>
+</header>
+
+<main class="article-wrap">
+  <p class="article-meta-top">
+    <span>Service Hub</span>
+    <span class="dot">7 min read</span>
+  </p>
+  <h1>Service Hub Ticketing: Setting Up a Support Queue That Scales</h1>
+  <p class="article-dek">Moving off a shared inbox is easy. Building a ticket system your team actually follows is the hard part.</p>
+
+  <div class="byline-box">
+    <div class="byline-avatar">AN</div>
+    <div class="byline-text">
+      <p class="name">Adem Nadir</p>
+      <p class="role">Published April 22, 2026 · Updated June 18, 2026</p>
+    </div>
+  </div>
+
+  <div class="takeaways">
+    <h2>Key takeaways</h2>
+    <ul>
+      <li>Design ticket pipeline stages around resolution workflow, not internal team structure</li>
+      <li>Set SLAs by ticket priority, not a single blanket response time across all tickets</li>
+      <li>Route tickets automatically by source and keyword before they hit a human queue</li>
+      <li>Breeze's Customer Agent works best on well-documented, repetitive ticket types — not novel issues</li>
+    </ul>
+  </div>
+
+  <div class="article-body">
+    <p>Teams moving from a shared inbox (or a spreadsheet pretending to be a ticket system) to Service Hub usually make the same mistake: they replicate their existing informal process inside the new tool instead of redesigning around what a structured pipeline actually enables. The result is a ticket system that looks more organized but doesn't change how fast issues get resolved.</p>
+
+    <h2>Design stages around resolution workflow</h2>
+    <p>A common error is building pipeline stages that mirror your team's org chart — "Tier 1," "Tier 2," "Engineering" — rather than the actual resolution journey. Stages should reflect what's true about the ticket's status: New, Waiting on Us, Waiting on Customer, Escalated, Resolved. This framing makes the "Waiting on Customer" bottleneck visible, which is usually where response time actually breaks down, not in your team's internal handling speed.</p>
+
+    <h2>Tiered SLAs, not one blanket response time</h2>
+    <p>A single SLA across all ticket types either sets an unrealistic bar for complex issues or wastes urgency on simple ones. Set SLAs by priority: a "service down" ticket from an enterprise account needs a sub-hour first response, while a feature request can reasonably wait a business day. HubSpot's SLA properties let you set this per pipeline stage and priority combination — use that granularity instead of a single team-wide target that nobody can hit consistently.</p>
+
+    <h2>Automate routing before tickets reach a human</h2>
+    <p>Set up routing rules based on ticket source (email, chat, form) and keyword matching before tickets land in a shared queue. A ticket containing "billing" or "invoice" should route directly to whoever owns billing questions, not sit in a general queue waiting for triage. This single change typically cuts time-to-first-response more than any agent productivity improvement, because it removes a manual triage step entirely.</p>
+
+    <h2>Where Breeze's Customer Agent actually helps</h2>
+    <p>The Customer Agent performs best on tickets with a clear, documented answer already in your knowledge base — password resets, "how do I," and billing FAQ-type questions. It performs poorly on novel or emotionally charged issues, where customers want to feel heard by a person, not routed to a bot. Set the agent to handle only ticket categories you've explicitly mapped to knowledge base articles, and route everything else to a human queue by default rather than trying to expand automation coverage too quickly.</p>
+
+    <h2>Track time-to-resolution, not just ticket volume</h2>
+    <p>Ticket volume dashboards look productive but don't tell you whether customers are actually getting helped faster. Track median time-to-resolution by priority tier and review it monthly — a team that resolves 200 tickets a week but takes three days on urgent issues has a process problem volume metrics won't surface.</p>
+
+    <p>For how Service Hub's ticket data connects to the same contact record sales and marketing see, read our <a href="../pages/page2.html">architecture overview</a>.</p>
+
+    <p class="source-note">Based on HubSpot Service Hub's pipeline and SLA configuration framework and independent analysis of common support team implementation patterns.</p>
+  </div>
+
+  <div class="related-box">
+    <h3>Related reading</h3>
+    <a href="../pages/page2.html">What Is HubSpot CRM and Why Does It Work Differently From Other Platforms?</a>
+    <a href="smart-crm-breeze-agents.html">Breeze AI Agents Explained: What They Automate and What They Don't</a>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-bottom">
+    <p>&copy; 2026 HubSpot Insights Hub. Independent publication, not affiliated with HubSpot, Inc.</p>
+    <nav>
+      <a href="../legal/about.html">About</a>
+      <a href="../legal/privacy.html">Privacy</a>
+      <a href="../legal/terms.html">Terms</a>
+    </nav>
+  </div>
+</footer>
+</body>
+</html>
